@@ -5,7 +5,7 @@ tools: ['fetch', 'githubRepo', 'search']
 ---
 # Search Awesome Copilot Prompts
 
-Search for prompts in the [GitHub awesome-copilot repository](https://github.com/github/awesome-copilot) by keyword, title, or description. Returns a list of matching prompts with descriptions and installation links.
+Search for prompts in the [GitHub awesome-copilot repository](https://github.com/github/awesome-copilot/blob/main/docs/README.prompts.md) by keyword, title, or description. Returns a list of matching prompts with descriptions and installation links.
 
 ## Usage
 
@@ -45,7 +45,7 @@ If no results are found, suggest alternative search terms or recommend browsing 
 
 ## Requirements
 
-- Use `#fetch` or `githubRepo` tool to retrieve content from awesome-copilot repository
+- Use `fetch` or `githubRepo` tool to retrieve content from awesome-copilot repository
 - Support case-insensitive search across prompt titles and descriptions
 - Display results sorted by relevance
 - Include installation links for both VS Code and VS Code Insiders
